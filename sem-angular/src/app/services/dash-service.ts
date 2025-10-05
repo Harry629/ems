@@ -9,7 +9,7 @@ export class DashService {
 
   constructor(private http : HttpClient){}
 
-  private baseUrl = 'https://employee-management-system-vnra.onrender.com/api/dash'
+  private baseUrl = 'https://ems-8epp.onrender.com/api/dash'
   // private baseUrl = 'http://localhost:3000/api/dash'
 
 
