@@ -46,3 +46,21 @@ button:hover {
   transform: scale(1.05); 
   color:#f8faf8
 }
+
+@media (max-width: 768px) {
+  .registerClass {
+    width: 80%;
+    margin-left: 5%;
+    margin-top: 20%;
+    padding: 15px;
+  }
+
+  input, button, select {
+    width: 90%;
+  }
+
+  button {
+    align-self: center;
+    margin-right: 0;
+  }
+}
